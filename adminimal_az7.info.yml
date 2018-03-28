@@ -1,0 +1,22 @@
+name: Adminimal Azimut7
+type: theme
+description: 'Azimut7 sub-theme for Adminimal.'
+core: 8.x
+base theme: adminimal_theme
+
+libraries:
+  - adminimal_az7/global-styling
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+
